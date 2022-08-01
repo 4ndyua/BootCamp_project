@@ -14,12 +14,8 @@ def tiktok2gif(url: str):
     vc = VideoFileClip("out.mp4")
     vc.write_gif("gif-out.gif")
 
-    # print(f'{ROOT_DIR}\gif-out.gif')
-
     return f'{ROOT_DIR}\gif-out.gif'
 
 
 s = "Python Bootcamp"
 s_hashed = hash(s)
-
-# print(s_hashed)
