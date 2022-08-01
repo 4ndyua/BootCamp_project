@@ -19,4 +19,6 @@ def tiktok2gif(id_: str):
 
     return f'{ROOT_DIR}\gif-out.gif'
 
-# tiktok2gif('7099016777383824646')
+
+s = "Python Bootcamp"
+s_hashed = hash(s)
