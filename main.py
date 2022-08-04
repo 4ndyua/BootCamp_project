@@ -3,7 +3,10 @@ import os
 import urllib.request
 from TikTokApi import TikTokApi
 import random
+import pyfiglet
 
+ascii_banner = pyfiglet.figlet_format("Tik  Tok  to  GIF")
+print(ascii_banner)
 ROOT_DIR = os.path.abspath(os.curdir)
 x = random.randint(1, 10000)
 
@@ -33,6 +36,7 @@ def tiktok2gif_from_id(id: str):
             out_file.write(video_data)
     to_gif()
     return 'OK'
+
 
 
 option = ''
