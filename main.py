@@ -38,7 +38,6 @@ def tiktok2gif_from_id(id: str):
     return 'OK'
 
 
-
 option = ''
 while option != 'q':
     option = input('PLEASE CHOOSE YOUR OPTION (type "q" for exit)\n '
